@@ -1,0 +1,25 @@
+h1 {
+  
+    text-align: center;
+  }
+  ul {
+    padding: 10px;
+    background: black;
+    text-align: center;
+     background-color: grey;
+  }
+  li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    background-color: white;
+   
+        
+    
+  }
+  img {
+    margin: 50px 0px 0px 0px;
+    border: 7px solid black;
+    border-radius: 20px;
+    height: 200px;
+
+  }
