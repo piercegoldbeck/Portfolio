@@ -5,7 +5,10 @@
     <title>Pierces Portfolio</title>
     <h1>PORTFOLIO</h1>
 
-    <h2> </h2>
+    <img src="IMG_4015.jpg">
+    <h2> Hi everyone! Welcome to my Portfolio. </h2>
+    <h3>Bio</h3>
+    <aside>Hi everyone. My Name is Pierce Goldbeck and I am an aspiring software engineer.</aside>
 
     <link href="/style.css" rel="stylesheet">
     <meta charset="UTF-8">
@@ -14,14 +17,28 @@
    
 </head>
 <body>
-    <header>
-        <img src="IMG_4015.jpg">
+    <!-- <img src="IMG_8588 Small.jpeg"> -->
+    
+    <nav>
+
         <ul>
-            <li><a href="https://www.linkedin.com/in/pierce-goldbeck-b36a1623b/">LinkedIn</a></li>
-            <li><a href="pgoldbeck1103@gmail.com">Email:</a></li>
-            <li><a href="#">Facebook</a></li>
+            
+            <li><a target="_blank" href="https://www.linkedin.com/in/pierce-goldbeck-b36a1623b/">LinkedIn</a></li>
+            <li>Email: pgoldbeck1103@gmail.com</li>
+            <li><a target="_blank" href="https://github.com/piercegoldbeck">Github link</a></li>
           </ul>
-    </header>
+          <h4>Past Work Experience:</h4>
+        </nav>
+        <button id="myBtn">Resume</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Please take a look :)</p>
+                <iframe src="Resume for portfolio.pdf"></iframe>
+              </div>
+        </div>
+       
+  
     <!-- <button>Comment</button> -->
 </body>
 <script src="/app.js"></script>
