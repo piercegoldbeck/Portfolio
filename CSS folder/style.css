@@ -27,9 +27,12 @@ h1, h2, aside, h3 {
 
   }
 body {
-  background-image: url("IMG_8588 Small.jpeg");
-  background-color: #cccccc;
+  background: url(../Photos/IMG_8588_Small.jpeg) no-repeat center center fixed;
+  /* background-color: #cccccc; */
+  background-size: cover;
 }
+  /* margin: ;
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
