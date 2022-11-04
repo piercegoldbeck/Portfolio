@@ -6,12 +6,13 @@ h1, h2, aside, h3 {
     padding: 10px;
     text-align: center;
      background-color: black;
+
   }
   li {
     display: inline;
     padding: 0px 10px 0px 10px;
-    background-color: white;
-   
+    background-color: whitesmoke;
+        
         
     
   }
