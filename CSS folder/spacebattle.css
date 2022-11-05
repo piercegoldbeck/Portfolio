@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+#uss {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#uss img {
+    height: 100px;
+}
+
+.aliens,
+#battleAlien {
+    display: flex;
+    justify-content: center;
+}
+
+.aliens img,
+#battleAlien img {
+    height: 75px;
+}
+
+#uss p {
+    position: fixed;
+    left: 45%;
+}
+
+#fire {
+    position: absolute;
+    top:300px;
+    bottom:550px;
+    left:30px;
+    margin:auto; 
+}
+
+p {
+    background-color: white;
+    padding: 10px;
+}
+
+aside {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+    font-size: 14px;
+    width: 14rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 0 0.5rem 0 0;
+}
