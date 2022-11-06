@@ -24,3 +24,5 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+alert('Click okay if you wish to continue and view this profile');
